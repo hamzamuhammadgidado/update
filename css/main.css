@@ -1,0 +1,133 @@
+body{
+  font-size: 13px;
+  font-family: roboto;
+}
+.bg1{
+  background-image: url("../images/African_Union_flag.png");
+  background-size: cover;
+
+}
+/****** Headers **********/
+.gen-header{
+  background-color: #c0a265;
+  background-image: -webkit-linear-gradient(bottom, #927946 0%, #c0a265 100%);
+  background-image: -moz-linear-gradient(bottom, #927946 0%, #c0a265 100%);
+  background-image: -o-linear-gradient(bottom, #927946 0%, #c0a265 100%);
+  background-image: -ms-linear-gradient(bottom, #927946 0%, #c0a265 100%);
+  background-image: linear-gradient(bottom, #927946 0%, #c0a265 100%);
+  border: none;
+  box-sizing: border-box;
+  padding: 0px 0px;
+  height: 53px;
+}
+.gen-header .logo-image{
+  width: 350px;
+  padding: 0px 0px;
+}
+
+
+/******** Overlay *********/
+/* The Modal (background) */
+.overlay {
+  display: block;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.7);
+  padding-top: 60px;
+}
+.overlay-content h3{
+  color: #c0a265;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.overlay-content p{
+  font-family: roboto;
+  font-size: 11.5px;
+}
+
+/****** Wrappers ***********/
+.wrapper{
+  background-color: #FAFAFA;
+  padding: 40px 35px;
+  margin-top: 15px;
+  border-radius: 5px;
+  border: 1px solid #bbbbbb;
+}
+
+
+/******** Inputs ***********/
+input[type=text],input[type=password],select, option, .form-control:not([size]):not([multiple]){
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  height: calc(2.25rem + 2px);
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding-box;
+	background-clip: padding-box;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  resize: none;
+}
+
+/******* Buttons **********/
+.btn-secondary-outline{
+  color: #ffffff;
+  border: 2px solid #ffffff;
+  background: transparent;
+}
+.btn-secondary-outline:hover, .btn-secondary-outline:focus, .btn-secondary-outline:active{
+  color: #927946;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: all 0.60s;
+}
+
+
+.btn-medium{
+  background-color: #c0a265;
+  background-image: -webkit-linear-gradient(bottom, #927946 0%, #c0a265 100%);
+  background-image: -moz-linear-gradient(bottom, #927946 0%, #c0a265 100%);
+  background-image: -o-linear-gradient(bottom, #927946 0%, #c0a265 100%);
+  background-image: -ms-linear-gradient(bottom, #927946 0%, #c0a265 100%);
+  background-image: linear-gradient(bottom, #927946 0%, #c0a265 100%);
+  border: none;
+  height: 40px;
+  color: #ffffff;
+  font-weight: 600;
+  font-family: inherit;
+}
+.btn-medium:hover{
+  background-color: #c0a265;
+  background-image: -webkit-linear-gradient(bottom, #927946 0%, #c0a265 100%);
+  background-image: -moz-linear-gradient(bottom, #927946 0%, #c0a265 100%);
+  background-image: -o-linear-gradient(bottom, #927946 0%, #c0a265 100%);
+  background-image: -ms-linear-gradient(bottom, #927946 0%, #c0a265 100%);
+  background-image: linear-gradient(bottom, #927946 0%, #c0a265 100%);
+  border: none;
+  cursor: pointer;
+}
+
+
+
+/*********** Footer ****************/
+.gen-footer{
+  background-color: #c0a265;
+  background-image: -webkit-linear-gradient(bottom, #927946 0%, #c0a265 100%);
+  background-image: -moz-linear-gradient(bottom, #927946 0%, #c0a265 100%);
+  background-image: -o-linear-gradient(bottom, #927946 0%, #c0a265 100%);
+  background-image: -ms-linear-gradient(bottom, #927946 0%, #c0a265 100%);
+  background-image: linear-gradient(bottom, #927946 0%, #c0a265 100%);
+  border: none;
+  box-sizing: border-box;
+  padding: 0px 0px;
+  height: 45px;
+}
+
+.gen-footer .navbar-nav .nav-link{
+  color: #ffffff;
+  font-weight: 600;
+}
