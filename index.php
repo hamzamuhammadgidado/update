@@ -81,19 +81,19 @@
                     <div class="col-lg-4 offset-lg-4">
                         <div class="overlay-content">
                             <div class="wrapper-1 login-div animated fadeInDown" style="display:none;">
-                                <img src="image/ico.png" class="img-fluid d-block mx-auto rounded-circle login-img" alt=""><hr>
+                                <img src="image/user.jpg" class="img-fluid d-block mx-auto rounded-circle login-img" alt=""> <hr>
 
-                                <form class="" action="index.html" method="post">
+                                <form class="form-group" action="index.html" method="post">
                                     <div class="row">
 
                                       <div class="col-lg-12">
                                           <div class="form-group">
-                                              <input type="text" name="" value="" class="form-control" placeholder="Enter Email or Phone Number">
+                                              <input type="text" name="" value="" class="form-control" placeholder="Email or Phone Number">
                                           </div>
                                       </div>
                                       <div class="col-lg-12">
                                           <div class="form-group">
-                                              <input type="text" name="" value="" class="form-control" placeholder="Enter Password">
+                                              <input type="text" name="" value="" class="form-control" placeholder="Password">
                                           </div>
                                       </div>
                                       <div class="col-lg-12">
@@ -101,9 +101,19 @@
                                               <button type="submit" name="button" class="btn btn-block btn-secondary login-btn"> Login Account </button>
                                           </div>
                                       </div>
-                                      <div class="col-lg-12">
+                                      <div class="col-lg-6">
                                           <div class="form-group">
-
+                                            <div class="form-check">
+                                                <label class="form-check-label">
+                                                  <input type="checkbox" class="form-check-input">
+                                                      <b>Remember Me</b>
+                                                </label>
+                                              </div>
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-6">
+                                          <div class="form-group">
+                                            <a href="#">Forgot password ?</a>
                                           </div>
                                       </div>
 
