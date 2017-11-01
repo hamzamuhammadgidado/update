@@ -83,7 +83,7 @@
                             <div class="wrapper-1 login-div animated fadeInDown" style="display:none;">
                                 <img src="image/user.jpg" class="img-fluid d-block mx-auto rounded-circle login-img" alt=""> <hr>
 
-                                <form class="form-group" action="index.html" method="post">
+                                <form class="form-group" action="" method="post">
                                     <div class="row">
 
                                       <div class="col-lg-12">
@@ -113,10 +113,14 @@
                                       </div>
                                       <div class="col-lg-6">
                                           <div class="form-group">
-                                            <a href="#">Forgot password ?</a>
+                                            <a href="#" id="forgot">Forgot password ?</a>
                                           </div>
                                       </div>
-
+                                      <div class="col-lg-12">
+                                          <div class="form-group">
+                                            <a href="#" id="create" class="text-center text-danger">Create New Account</a>
+                                          </div>
+                                      </div>
                                     </div>
                                 </form>
                             </div>
@@ -124,6 +128,35 @@
                         </div>
                     </div>
                   <!-- End Login Div -->
+
+
+                  <!-- Forgot Div -->
+                    <div class="col-lg-4 offset-lg-4">
+                        <div class="overlay-content">
+                            <div class="wrapper-1 forgot-div animated fadeInDown" style="display:none;">
+                                <img src="image/user.jpg" class="img-fluid d-block mx-auto rounded-circle login-img" alt=""> <hr>
+
+                                <div class="form-group" action="" method="post">
+                                    <div class="row">
+
+                                      <div class="col-lg-12">
+                                          <div class="form-group">
+                                              <input type="text" name="" value="" class="form-control" placeholder="Enter Email Address">
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-12">
+                                          <div class="form-group">
+                                              <button type="submit" name="button" class="btn btn-block btn-secondary login-btn" id="resetpass"> Reset Password </button>
+                                          </div>
+                                      </div>
+
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                  <!-- End Forgot Div -->
 
 
                 </div>

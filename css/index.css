@@ -90,19 +90,17 @@ input[type=text],input[type=password], textarea, select.form-control:not([size])
 
 /******** Buttons ****************/
 .login-btn{
-  background: #c0a265;
+  background: #927946;
+  border: 1px solid #927946;
+  color: #ffffff;
+  font-size: 15px;
+}
+.login-btn:hover, .login-btn:focus{
+  cursor: pointer;
+  background-color: #c0a265;
   border: 1px solid #c0a265;
   color: #ffffff;
   font-size: 15px;
-  font-weight: 600;
-	background-image: -webkit-linear-gradient(bottom, #927946 0%, #c0a265 100%);
-	background-image: -moz-linear-gradient(bottom, #927946 0%, #c0a265 100%);
-	background-image: -o-linear-gradient(bottom, #927946 0%, #c0a265 100%);
-	background-image: -ms-linear-gradient(bottom, #927946 0%, #c0a265 100%);
-	background-image: linear-gradient(bottom, #927946 0%, #c0a265 100%);
-}
-.login-btn:hover,.login-btn:focus{
-  cursor: pointer;
 }
 
 
