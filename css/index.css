@@ -1,0 +1,112 @@
+/******** Build Body ********/
+body{
+  font-size: 13px;
+  font-family: roboto;
+  clear: both;
+  margin: 0 auto;
+}
+.body-img-1{
+  background-image: url("../image/auns-flag.png");
+  background-size: cover;
+}
+
+
+
+/******** Build Header ********/
+.small-header{
+  background-color: #927946;
+  box-sizing: border-box;
+  border: none;
+  height: 55px;
+}
+.small-header img{
+  width: 280px;
+}
+.small-header .small-header-btn{
+  background-color: transparent;
+  border: 1.5px solid #ffffff;
+  color: #ffffff;
+}
+.small-header .small-header-btn:hover, .small-header .small-header-btn:focus{
+  background-color: #ffffff;
+  border: 1.5px solid #ffffff;
+  color: #927946;
+  cursor: pointer;
+  transition: all 0.60s;
+}
+
+
+/********** Overlay ***********/
+.overlay {
+    display: block;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.5);
+    padding-top: 60px;
+}
+
+
+
+/********* Wrappers **********/
+.wrapper-1{
+  background-color: #FAFAFA;
+  margin: 25px 0px 0px 0px;
+  border-radius: 5px;
+  padding: 40px 40px;
+}
+.wrapper-1 h4{
+  color: #c0a265;
+  font-family: sans-serif;
+  font-weight: bold;
+}
+.wrapper-1 p{
+  font-size: 11px;
+  font-family: sans-serif;
+}
+
+
+/********* Inputs ***********/
+input[type=text],input[type=password], textarea, select.form-control:not([size]):not([multiple]){
+  border: 1px solid #cccccc;
+  font-size: 13px;
+  height: calc(2.25rem + 2px);
+	-webkit-background-clip: padding-box;
+	-moz-background-clip: padding-box;
+	background-clip: padding-box;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+}
+
+
+/******** Buttons ****************/
+.login-btn{
+  background: #c0a265;
+  border: 1px solid #c0a265;
+  color: #ffffff;
+  font-size: 15px;
+  font-weight: 600;
+	background-image: -webkit-linear-gradient(bottom, #927946 0%, #c0a265 100%);
+	background-image: -moz-linear-gradient(bottom, #927946 0%, #c0a265 100%);
+	background-image: -o-linear-gradient(bottom, #927946 0%, #c0a265 100%);
+	background-image: -ms-linear-gradient(bottom, #927946 0%, #c0a265 100%);
+	background-image: linear-gradient(bottom, #927946 0%, #c0a265 100%);
+}
+.login-btn:hover,.login-btn:focus{
+  cursor: pointer;
+}
+
+
+/******* Small Footer *********/
+.small-footer{
+  background-color: #927946;
+  box-sizing: border-box;
+}
+.navbar-light .navbar-nav .nav-link{
+  color: #fff;
+  font-family: sans-serif;
+}
