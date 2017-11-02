@@ -36,6 +36,7 @@ body{
 }
 
 
+
 /********** Overlay ***********/
 .overlay {
     display: block;
@@ -70,16 +71,17 @@ body{
   font-family: sans-serif;
 }
 .wrapper-1 a, label{
-  color: #66BB6A;
+  color: #757575;
   font-family: sans-serif;
 
 }
 
 
+
 /********* Inputs ***********/
-input[type=text],input[type=password], textarea, select.form-control:not([size]):not([multiple]){
+input[type=text], input[type=password], textarea, select .form-control:not([size]):not([multiple]){
   border: 1px solid #cccccc;
-  font-size: 13px;
+  font-size: 12px;
   height: calc(2.25rem + 2px);
 	-webkit-background-clip: padding-box;
 	-moz-background-clip: padding-box;

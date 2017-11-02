@@ -29,37 +29,37 @@
                             <div class="wrapper-1 create-div animated fadeInDown">
                                 <h4 class="text-center">Create Account !</h4><hr>
 
-                                <form class="" action="index.html" method="post">
+                                <form class="" action="" method="post">
                                     <div class="row">
 
                                       <div class="col-lg-12">
                                           <div class="form-group">
-                                              <input type="text" name="" value="" class="form-control" placeholder="Enter Surname">
+                                              <input type="text" name="" value="" class="form-control" placeholder="Surname">
                                           </div>
                                       </div>
                                       <div class="col-lg-12">
                                           <div class="form-group">
-                                              <input type="text" name="" value="" class="form-control" placeholder="Enter Others Name">
+                                              <input type="text" name="" value="" class="form-control" placeholder="Others Name">
                                           </div>
                                       </div>
                                       <div class="col-lg-12">
                                           <div class="form-group">
-                                              <input type="text" name="" value="" class="form-control" placeholder="Enter Email Address">
+                                              <input type="text" name="" value="" class="form-control" placeholder="Email Address">
                                           </div>
                                       </div>
                                       <div class="col-lg-12">
                                           <div class="form-group">
-                                              <input type="text" name="" value="" class="form-control" placeholder="Enter Password">
+                                              <input type="password" name="" value="" class="form-control" placeholder="Password">
                                           </div>
                                       </div>
                                       <div class="col-lg-12">
                                           <div class="form-group">
-                                              <input type="text" name="" value="" class="form-control" placeholder="Enter Comfirm Password">
+                                              <input type="password" name="" value="" class="form-control" placeholder="Comfirm Password">
                                           </div>
                                       </div>
                                       <div class="col-lg-12">
                                           <div class="form-group">
-                                              <button type="submit" name="button" class="btn btn-block btn-secondary login-btn"> Create Account </button>
+                                              <button type="button" name="button" class="btn btn-block btn-secondary login-btn" id="register"> Create Account </button>
                                           </div>
                                       </div>
                                       <div class="col-lg-12">
@@ -93,12 +93,17 @@
                                       </div>
                                       <div class="col-lg-12">
                                           <div class="form-group">
-                                              <input type="text" name="" value="" class="form-control" placeholder="Password">
+                                              <input type="password" name="" value="" class="form-control" placeholder="Password">
                                           </div>
                                       </div>
                                       <div class="col-lg-12">
                                           <div class="form-group">
-                                              <button type="submit" name="button" class="btn btn-block btn-secondary login-btn"> Login Account </button>
+                                              <button type="button" name="button" class="btn btn-block btn-secondary login-btn"> Login Account </button>
+                                          </div>
+                                      </div>
+                                      <div class="col-lg-12">
+                                          <div class="form-group">
+                                            <a href="#" id="create" class="text-center text-success"><b>Create New Account</b></a>
                                           </div>
                                       </div>
                                       <div class="col-lg-6">
@@ -116,11 +121,7 @@
                                             <a href="#" id="forgot">Forgot password ?</a>
                                           </div>
                                       </div>
-                                      <div class="col-lg-12">
-                                          <div class="form-group">
-                                            <a href="#" id="create" class="text-center text-danger">Create New Account</a>
-                                          </div>
-                                      </div>
+                                      <hr>
                                     </div>
                                 </form>
                             </div>
@@ -136,7 +137,7 @@
                             <div class="wrapper-1 forgot-div animated fadeInDown" style="display:none;">
                                 <img src="image/user.jpg" class="img-fluid d-block mx-auto rounded-circle login-img" alt=""> <hr>
 
-                                <div class="form-group" action="" method="post">
+                                <form class="form-group" action="" method="post">
                                     <div class="row">
 
                                       <div class="col-lg-12">
@@ -146,18 +147,57 @@
                                       </div>
                                       <div class="col-lg-12">
                                           <div class="form-group">
-                                              <button type="submit" name="button" class="btn btn-block btn-secondary login-btn" id="resetpass"> Reset Password </button>
+                                              <button type="button" name="button" class="btn btn-block btn-secondary login-btn" id="resetpass"> Reset Password </button>
                                           </div>
                                       </div>
 
                                     </div>
-                                </div>
+                                </form>
                             </div>
 
                         </div>
                     </div>
                   <!-- End Forgot Div -->
 
+
+                  <!-- Send Message Div -->
+                    <div class="col-lg-4 offset-lg-4">
+                        <div class="overlay-content">
+                            <div class="wrapper-1 msg-div animated fadeInDown" style="display:none;">
+                                <img src="image/mail.ico" class="img-fluid d-block mx-auto login-img" alt="Send Email"><hr>
+                                <form class="form-group" action="" method="post">
+                                  <div class="form-group">
+                                      An activation link was sent to your email, click to verify
+                                  </div>
+                                  <div class="form-group">
+                                          <button type="button" name="button" class="btn btn-secondary login-btn btn-block" id="sendmail">Continue</button>
+                                  </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                  <!-- End Send Message Div -->
+
+
+                  <!-- Send Message Div -->
+                    <div class="col-lg-4 offset-lg-4">
+                        <div class="overlay-content">
+                            <div class="wrapper-1 forgot-msg-div animated fadeInDown" style="display:none;">
+                                <img src="image/mail.ico" class="img-fluid d-block mx-auto login-img" alt="Send Email"><hr>
+                                <form class="form-group" action="" method="post">
+                                  <div class="form-group">
+                                      An activation link was sent to your email, click to verify
+                                  </div>
+                                  <div class="form-group">
+                                          <button type="button" name="button" class="btn btn-secondary login-btn btn-block" id="sendmailforgot">Login</button>
+                                  </div>
+                                </form>
+                            </div>
+
+                        </div>
+                    </div>
+                  <!-- End Send Message Div -->
 
                 </div>
             </div>
